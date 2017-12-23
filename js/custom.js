@@ -37,7 +37,7 @@
    $('#slides').superslides({
       animation: 'fade',
       hashchange: true,
-      play: 2500
+      play: 5000
     });
   
   /* ----------------------------------------------------------- */
