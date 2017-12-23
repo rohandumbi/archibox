@@ -61,6 +61,7 @@
 #banner h2 {
   color: #957B5F;
 }
+
 .imgedit_heading .panel-title > a {
   color: #957B5F;
 }
@@ -152,6 +153,11 @@
 .slider_caption > h2 span{ 
   color: #957B5F;
 }
+
+.slider_caption > h3 span{
+  color: #957B5F;
+}
+
 .slider_btn {
   border: 1px solid #957B5F;
 }
