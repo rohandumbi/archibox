@@ -255,9 +255,8 @@ img{
   z-index: 99999;
 }
 .navbar-default {
-  border-color: #e7e7e7;
-  /*padding: 10px 0px;*/
-  background: rgb(43, 43, 43); /* Old browsers */
+  border-color: #000000;
+  background: #000000; /* Old browsers */
 }
 .navbar-brand{
   font-size: 20px;
@@ -283,7 +282,7 @@ img{
 }
 .navbar-default li.active:after {
   bottom: -42px;
-  color: rgb(43, 43, 43);
+  color: rgb(0, 0, 0);
   content: "";
   font-family: FontAwesome;
   font-size: 35px;
@@ -305,7 +304,7 @@ img{
    /*border-radius: 4px;*/
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(0, 0, 0);
 }
 .navbar-nav > li > .dropdown-menu { 
   margin-top: 13px;
