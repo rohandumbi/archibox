@@ -58,108 +58,53 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse navbar_area">          
         <ul class="nav navbar-nav navbar-right custom_nav">
-          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="portfolio.html">PORTFOLIO</a></li>
           <li><a href="news.html">NEWS</a></li>
           <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li class="active"><a href="contact.html">CONTACT</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
   <!-- End navbar -->
 
-  <!-- start slider section -->
-  <section id="sliderSection">            
-    <div class="mainslider_area">
-      <!-- Start super slider -->
-      <div id="slides">
-        <ul class="slides-container">
-          <!-- Start single slider-->
-          <li>
-            <img src="img/slider/slider1.jpg" alt="img">
-            <div class="slider_caption">
-              <h3>Welcome To <span> ARCHIBOX </span></h3>
-              <h4>Architecture. Interior.</h4>
-            </div>
-          </li> 
-          <!-- Start single slider-->           
-          <li>
-            <img src="img/slider/slider2.jpg" alt="img">
-             <div class="slider_caption">
-               <h3>Welcome To <span> ARCHIBOX </span></h3>
-               <h4>Architecture. Interior.</h4>
-            </div>
-          </li>
-          <!-- Start single slider-->
-          <li>
-            <img src="img/slider/slider3.jpg" alt="img">
-             <div class="slider_caption">
-               <h3>Welcome To <span> ARCHIBOX </span></h3>
-               <h4>Architecture. Interior.</h4>
-            </div>
-          </li>
-        </ul>
-        <nav class="slides-navigation">
-          <a href="#" class="next"></a>
-          <a href="#" class="prev"></a>
-        </nav>
-      </div>
-    </div>
-  </div>    
-  </section>
-  <!-- End slider section -->
-  <!-- Start How it works area -->
-  <section id="howWorks">
+  <!-- start contact form section -->
+  <section id="contactFormSection">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="howworks_area">
-            <h2 class="font_2">
-              <span style="letter-spacing:0.2em;">FEATURED PROJECTS</span>
-            </h2>
-            <div style="margin-top: 50px" class="row blog wow fadeInRight">
-              <div class="col-xs-6">
-                <a data-fancybox-group="1" class="thumb" href="img/slider/slider1.jpg">
-                  <img src="img/slider/slider1.jpg" alt="">
-                  <!--<span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>-->
-                </a>
-              </div>
-              <div class="col-xs-6">
-                <h5 class="font_5 color_theme">ECL Hall, Boston</h5>
-                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story.</p>
-              </div>
-            </div>
-            <div style="margin-top: 50px" class="row blog wow fadeInRight">
-              <div class="col-xs-6">
-                <a data-fancybox-group="1" class="thumb" href="img/slider/slider2.jpg">
-                  <img src="img/slider/slider2.jpg" alt="">
-                  <!--<span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>-->
-                </a>
-              </div>
-              <div class="col-xs-6">
-                <h5 class="font_5 color_theme">Louis House, PORTLAND</h5>
-                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story.</p>
-              </div>
-            </div>
-            <div style="margin-top: 50px" class="row blog wow fadeInRight">
-              <div class="col-xs-6">
-                <a data-fancybox-group="1" class="thumb" href="img/slider/slider3.jpg">
-                  <img src="img/slider/slider3.jpg" alt="">
-                  <!--<span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>-->
-                </a>
-              </div>
-              <div class="col-xs-6">
-                <h5 class="font_5 color_theme">YC TOWERS, SAN DIEGO</h5>
-                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story.</p>
-              </div>
-            </div>
+      <div class="row wow flipInX">
+        <br/>
+        <div class="client_title">
+          <hr>
+          <h2>We Would <span>Love To Hear From You</span></h2>
+        </div>
+        <br/>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="contact_left wow fadeInLeft">
+            <form id="archibox_form" class="submitphoto_form" method="post" action="email\contactus.php">
+              <input id="contact_name" name="contact_name" type="text" class="form-control wpcf7-text" placeholder="Your name">
+              <input id="contact_email" name="contact_email" type="mail" class="form-control wpcf7-email" placeholder="Email address">
+              <input id="contact_subject" name="contact_subject" type="text" class="form-control wpcf7-text" placeholder="Subject">
+              <textarea id="contact_comments" name="contact_comments" style="overflow: auto;" class="form-control wpcf7-textarea" cols="30" rows="8" placeholder="What would you like to tell us"></textarea>
+              <input type="submit" value="Submit" class="wpcf7-submit photo-submit">
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="contact_right wow fadeInRight">
+            <img src="img/phone_icon.png" alt="img">
+            <p>Say hello! We want to hear about what you have to say. We are open to feedback and any questions you may have.</p>
+            <address>
+              <p><a class="color_theme" target="_blank" href="mailto:info@archibox.in">info@archibox.in</a></p>
+              <p>Santoshpur, Kolkata, India</p>
+              <p>Phone: +919674306802 / +919830518603</p>
+            </address>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End How it works area -->
+  <!-- End contact form section -->
   <!-- start footer -->
   <footer id="footer">
     <div class="container">
@@ -202,10 +147,6 @@
     </div>
   </footer>
   <!-- End footer -->
-
-  
- 
-  
   <!-- jQuery Library -->
   <script src="js/jquery.1.11.1.js"></script>
   <!-- For content animatin  -->
@@ -224,6 +165,32 @@
 
   <!-- custom js file include -->
   <script src="js/custom.js"></script>
+  <!-- Form submit -->
+  <script type='text/javascript'>
+    /* attach a submit handler to the form */
+    $("#archibox_form").submit(function(event) {
+
+      /* stop form from submitting normally */
+      event.preventDefault();
+
+      /* get the action attribute from the <form action=""> element */
+      var $form = $( this ),
+              url = $form.attr( 'action' );
+
+      /* Send the data using post with element id name and name2*/
+      var posting = $.post( url, {
+        contact_name: $('#contact_name').val(),
+        contact_email: $('#contact_email').val(),
+        contact_subject: $('#contact_subject').val(),
+        contact_comments: $('#contact_comments').val()
+      } );
+
+      /* Alerts the results */
+      posting.done(function( data ) {
+        alert('success');
+      });
+    });
+  </script>
       
   </body>
 </html>
